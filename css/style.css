@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background: darkgoldenrod;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero {
+}
+.header {
+    display: flex;
+}
+.logo-wrap {
+    margin-right: 200px;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+ }
+.nav {
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+.nav__link {
+    color: rgba(255, 255, 255, 0.5)
+}
+.hero__content {
+    display: flex;
+}
+.hero__decor {
+    margin-top: 150px;
+}
+.hero__img-wrap {
+    height: 600px;
+    width: 500px;
+    margin-right: 100px;
+}
+.hero__img {
+}
+.hero__info {
+    margin-top: 220px;
+}
+.hero__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.hero__title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;    
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.vet {
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+.vet__header {
+    display: flex;
+}
+.vet__nav {
+}
+.vet__nav-list {
+    display: flex;
+}
+.vet__nav-item {
+    display: flex;
+    margin-right: 100px
+}
+.vet__nav-item:last-child {
+    margin-right: 0;
+}
+.vet__img-wrap-icon {
+}
+.vet__img-icon {
+    height: 90px;
+    width: 90px;
+}
+.vet__information-icon {
+    margin-left: 40px;
+}
+.vet__title-icon {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.5%;    
+    color: white;
+    opacity: 0.9;
+}
+.vet__text-icon {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    opacity: 0.6;
+}
+.vet__content {
+    display: flex;
+}
+.vet__info {
+    margin-top: 150px;
+}
+.vet__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.5%;    
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+.vet__text {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.5%;    
+    color: white;
+    opacity: 0.7;
+}
+.vet__decor {
+}
+.vet__img-wrap {
+}
+.vet__img {
+}
